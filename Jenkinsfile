@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('cd') {
+        stage('cd master branch') {
             steps {
               git 'https://github.com/efsavage/hello-world-war.git'
             }
